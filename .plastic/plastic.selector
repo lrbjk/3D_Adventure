@@ -1,0 +1,4 @@
+repository "3D_Adventure@tj_2b40dee0_07d9_4132_b8e1_a280433cc4bd@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21899c59c48df3a478575b673091a06d, type: 3}
+  m_Name: Enemy_axe
+  m_EditorClassIdentifier: Assembly-CSharp::Astraparasitus.EnemyArchetype
+  stableId: 5d111541b5b24dafb8ae3749a9ef3176
+  ID: 2
+  Name: "\u624B\u65A7\u50F5\u5C38"
+  enemyPrefab: {fileID: 8995085803682203184, guid: 811a0eb7c9f7ff044af5a8a0fa5ff0f3,
+    type: 3}
+  health: 300
+  endurance: 40
+  speedRate: 1
+  size: 1
+  damage: 25
+  hitStunValue: 18
+  stunTime: 2.5
+  recoverTime: 10
+  leftLegValue: 20
+  rightLegValue: 20
+  leftArmValue: 20
+  rightArmValue: 20
+  gravity: -9.8
+  navMeshAreaName: EnemyBase
+  viewRadius: 15
+  viewAngleStep: 30
+  viewAngle: 180
+  viewOffset: {x: 0.57, y: 1.19, z: 0}
+  attackDistance: 2
+  farAttackDistance: 7
+  executionDistance: 1.4
+  forgetDelay: 10
+  useDistanceCheck: 0
+  ignoreLayer:
+    serializedVersion: 2
+    m_Bits: 4
+  skills:
+  - {fileID: 11400000, guid: 2d4caee689920de4688f4487bdafcc67, type: 2}
+  - {fileID: 11400000, guid: f46bc203aa3876b4988cfdead3badd2c, type: 2}
+  - {fileID: 11400000, guid: eaf7a5bb1bf1ee74b8c328c2ca988710, type: 2}
+  - {fileID: 11400000, guid: 5912112ecf7997a49bb7be2b73ecef2f, type: 2}
+  - {fileID: 11400000, guid: 15ecaaf905cf23b4984ed0f5fd3ce89e, type: 2}
+  - {fileID: 11400000, guid: 7bd1f4a9dd2004045909d1e61c5a2b83, type: 2}
+  idle: Idle
+  chase: Chase
+  toNoLeg: ToNoLeg
+  noLegIdle: NoLegIdle
+  noLegChase: NoLegChase
+  Break: Break
+  other: 
+  idleSound: EnemyIdle
+  chaseSound: EnemyMove
+  breakSound: EnemyBreak
+  attackSound: EnemyAttack
+  hitSound: EnemyHit
+  dieSound: EnemyDeath
+  lootTable: {fileID: 0}
+  fallbackLootPrefab: {fileID: 3947092692274081460, guid: c1c4711d4d42d2f498487ff7cc2ac7e3,
+    type: 3}
+  useLegacyRandomLoot: 0

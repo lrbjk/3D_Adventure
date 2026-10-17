@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46268822cb7dd547a1113c2f616d593, type: 3}
+  m_Name: Attack04
+  m_EditorClassIdentifier: 
+  stableId: 641cffcf0c414482949d375d12e3a315
+  skillName: Attack04
+  clipName: Throw
+  endurance: 40
+  damageRate: 0
+  eventName: 2
+  startframe: 51
+  endframe: 51
+  hitboxIndex: 0

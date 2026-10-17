@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46268822cb7dd547a1113c2f616d593, type: 3}
+  m_Name: SpAttack
+  m_EditorClassIdentifier: 
+  stableId: b4002bfe85ce4511a84fb5c36d49a137
+  skillName: SpAttack
+  clipName: Setmotion01_atk
+  endurance: 20
+  damageRate: 1
+  eventName: 0
+  startframe: 13
+  endframe: 18
+  hitboxIndex: 0

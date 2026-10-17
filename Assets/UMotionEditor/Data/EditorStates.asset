@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1252790098, guid: 448d62fcada76fd4ab5702190add98fd, type: 3}
+  m_Name: EditorStates
+  m_EditorClassIdentifier: 
+  GeneralStates:
+    LoadedProjectGUID:
+      valueInternal: 
+    RecentlyOpenedProjectPath:
+      valueInternal: Assets\GameAssets\MyModel\Animation\Enemy
+    RecentlyOpenedProjectGUIDsList:
+    - valueInternal: ff8a3348a18a889478f04394f327650f
+    - valueInternal: e2a08a6aff56ff34da658ea7d79a9fde
+    - valueInternal: a2238bc155ffccb49a97a8abac7cdd08
+    - valueInternal: c976d8c580d679c459e7e487fe8c1e4d
+    - valueInternal: af6d7dd0633c3c544aa1d74cfd2b9695
+    - valueInternal: dbf9b38875409414195e0f4c9832fed3
+    - valueInternal: 2372cdfe8bba0824a930f7ffde08293c
+    - valueInternal: 2fa20ba82236138498ea92400fa114a2
+    - valueInternal: 0eb0715b39c43a34aaafd0ce9c0e5952
+    - valueInternal: 78262d7e87cb3004285be5aebf02135c

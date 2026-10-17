@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6871853357723116480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8784904390083755212}
+  - component: {fileID: 2776706768706406506}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8784904390083755212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6871853357723116480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2776706768706406506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6871853357723116480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c674cef056c6e224e8a20f4bce3bbd2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 2c674fbb6451d224dad4a2797903c66a, type: 2}
+  sounds:
+  - name: HorrorBgm
+    audioClip: {fileID: 8300000, guid: 6accc39221b158945bce8fd4eab48ab7, type: 3}
+  - name: OpenDoor
+    audioClip: {fileID: 8300000, guid: c852381363bab3d4c92405d70de34c46, type: 3}
+  - name: Locked
+    audioClip: {fileID: 8300000, guid: f9af13a9e5d8636438f35e4a61721cdb, type: 3}
+  - name: Expand
+    audioClip: {fileID: 8300000, guid: e74da3cf8cbdedd488757b8436d253d7, type: 3}
+  - name: Back
+    audioClip: {fileID: 8300000, guid: a9c5a7dc6191fe54b92e99eabe5f7c72, type: 3}
+  - name: Navigation
+    audioClip: {fileID: 8300000, guid: dbcf6ffc463cb364d8ae3faeefda1be4, type: 3}
+  - name: Paper
+    audioClip: {fileID: 8300000, guid: cb7631b851c258043a584bb30c692d17, type: 3}
+  - name: Select
+    audioClip: {fileID: 8300000, guid: 11330dd110e3b204f9281b4e26c53e5d, type: 3}
+  - name: FootstepDefault
+    audioClip: {fileID: 8300000, guid: 07a43dd4278828d41a3ef659f7dc0e11, type: 3}
+  - name: PistolShoot
+    audioClip: {fileID: 8300000, guid: 857dfc8f0a6c3324c829159a62b755ac, type: 3}
+  - name: PistolEmpty
+    audioClip: {fileID: 8300000, guid: decc5cb2a9f06074590aba511f2ce942, type: 3}
+  - name: PistolReload
+    audioClip: {fileID: 8300000, guid: 14b437ca3a1773543ab8183450139659, type: 3}
+  - name: KnifeSwipe
+    audioClip: {fileID: 8300000, guid: 5d86fc4fd190db14ba97a2ee65c79dd4, type: 3}
+  - name: OpenBox
+    audioClip: {fileID: 8300000, guid: 52903b673fa2ad140829b875f62fa739, type: 3}
+  - name: EnemyIdle
+    audioClip: {fileID: 8300000, guid: d940158415e8d804cb6bd6cf226c763d, type: 3}
+  - name: EnemyMove
+    audioClip: {fileID: 8300000, guid: 2aec7f1e8ea290d4aa2903aa2f1872b0, type: 3}
+  - name: EnemyAttack
+    audioClip: {fileID: 8300000, guid: 382003b6f4b5a7b4b98aa96a20b6c763, type: 3}
+  - name: EnemyHit
+    audioClip: {fileID: 8300000, guid: 176fcec6c460b4f428776ac18db8512b, type: 3}
+  - name: EnemyDeath
+    audioClip: {fileID: 8300000, guid: ac67344769c822b4e90f00db6b174197, type: 3}
+  - name: EnemyBreak
+    audioClip: {fileID: 8300000, guid: 34174c0511e54aa4db40b4f9e38ee96a, type: 3}
+  - name: ShootHit
+    audioClip: {fileID: 8300000, guid: 884d4fab92bb16e408a2ee41e446db28, type: 3}
+  - name: Kick
+    audioClip: {fileID: 8300000, guid: 482611fe6bc559142a00be6e726b4862, type: 3}
+  - name: KickHit
+    audioClip: {fileID: 8300000, guid: d0f166575306db84091dc03fce0eff69, type: 3}
+  - name: knifeHit
+    audioClip: {fileID: 8300000, guid: 7cbd6cd765888ff418d01d98bd1ce9c2, type: 3}
+  - name: DoorDown
+    audioClip: {fileID: 8300000, guid: c01bbab8442e45146be860df82582360, type: 3}
+  - name: Parry
+    audioClip: {fileID: 8300000, guid: 95cd859166f32e54aba7b046a1c187a1, type: 3}

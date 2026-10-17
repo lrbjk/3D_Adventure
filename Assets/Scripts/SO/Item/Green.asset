@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8674adba7600c9643aa0358044899602, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  stableId: 4a944c1110384af59af2fd7812c1b3f3
+  legacyStableIds: []
+  configVersion: 2
+  id: 21
+  itemName: Green medicinal powder
+  description: 
+  itemType: 2
+  defaultAmount: 1
+  icon: {fileID: 21300000, guid: eb2a6cafe9a297a4ea34859e33f3c155, type: 3}
+  worldPrefab: {fileID: 6215487509445414067, guid: 562fcb813321640428f24c401cf4da0c,
+    type: 3}
+  inspectPrefab: {fileID: 5880789199276348807, guid: d789e493d3de65446aa90eeae5c80a47,
+    type: 3}
+  useEffect: 1
+  effectAmount: 50
+  isCombinable: 1
+  combineWith: {fileID: 11400000, guid: 7e872962d87861c489ffb99f0df8fdf2, type: 2}
+  combineResult: {fileID: 11400000, guid: f05b3c4fbae703f47a55e044a523a4a9, type: 2}
+  item:
+    id: 21
+    itemName: Green medicinal powder
+    itemNum: 1
+    itemObject: Item/HerbMix_Green
+    itemIcon: Icon/HerbMix_Green
+    isUseable: 1
+    isCombinable: 1
+    combineId: 22
+    combineObject: {fileID: 11400000, guid: f05b3c4fbae703f47a55e044a523a4a9, type: 2}

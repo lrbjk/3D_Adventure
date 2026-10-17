@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21899c59c48df3a478575b673091a06d, type: 3}
+  m_Name: Enemy_alpha_boss
+  m_EditorClassIdentifier: Assembly-CSharp::Astraparasitus.EnemyArchetype
+  stableId: 61d7be91d1344d07afc0eda32d0bad4f
+  ID: 4
+  Name: "\u963F\u5C14\u6CD5\u539F\u578B\u4F53"
+  enemyPrefab: {fileID: 4987008020459718411, guid: e40229159aee61a43b558fa348b1cab1,
+    type: 3}
+  health: 2000
+  endurance: 200
+  speedRate: 1
+  size: 3
+  damage: 50
+  hitStunValue: 50
+  stunTime: 2.5
+  recoverTime: 4
+  leftLegValue: 1000
+  rightLegValue: 1000
+  leftArmValue: 1000
+  rightArmValue: 1000
+  gravity: -9.8
+  navMeshAreaName: EnemyBase
+  viewRadius: 15
+  viewAngleStep: 30
+  viewAngle: 193
+  viewOffset: {x: 0.39, y: 1.2, z: 0}
+  attackDistance: 2.5
+  farAttackDistance: 5
+  executionDistance: 0
+  forgetDelay: 10
+  useDistanceCheck: 0
+  ignoreLayer:
+    serializedVersion: 2
+    m_Bits: 1028
+  skills:
+  - {fileID: 11400000, guid: 1d43ddbe87db69d42a95b604719a3d71, type: 2}
+  - {fileID: 11400000, guid: 4a754e32d99ed9e4d92aa2d8d40a05c5, type: 2}
+  - {fileID: 11400000, guid: cdb4b0d4878fdf444b9034ca652c47c5, type: 2}
+  idle: Idle
+  chase: Chase
+  toNoLeg: ToNoLeg
+  noLegIdle: NoLegIdle
+  noLegChase: NoLegChase
+  Break: Break
+  other: Eating
+  idleSound: EnemyIdle
+  chaseSound: EnemyMove
+  breakSound: EnemyBreak
+  attackSound: EnemyAttack
+  hitSound: EnemyHit
+  dieSound: EnemyDeath
+  lootTable: {fileID: 0}
+  fallbackLootPrefab: {fileID: 0}
+  useLegacyRandomLoot: 0

@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: b90d46bafe5c0f0468e4f80da538e053
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - LOD_1_Group_0_Sub_1__wp4000_00_2_mat
+    - LOD_1_Group_5_Sub_1__wp4000_00_2_mat
+    - LOD_1_Group_6_Sub_1__wp4000_00_2_mat
+    - LOD_1_Group_20_Sub_1__wp4000_00_2_mat
+    - LOD_1_Group_200_Sub_1__wp4000_00_laser_mat
+    - LOD_1_Group_201_Sub_1__wp4000_00_laser_mat
+    - root
+    - root/_00
+    - root/_00/_01
+    - root/_00/_02
+    - root/_00/_03
+    - root/_00/_04
+    - root/_00/_05
+    - root/_00/_06
+    - root/_00/_07
+    - root/_00/_08
+    - root/_00/_14
+    - root/_00/_100
+    - root/_00/_101
+    - root/_00/vfx_Laser1
+    - root/_00/vfx_muzzle1
+    - root/_00/vfx_muzzle2
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Noesis Frames
+      takeName: Noesis Frames
+      internalID: 2207850806306222022
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LOD_1_Group_0_Sub_1__wp4000_00_2_mat
+        weight: 1
+      - path: LOD_1_Group_5_Sub_1__wp4000_00_2_mat
+        weight: 1
+      - path: LOD_1_Group_6_Sub_1__wp4000_00_2_mat
+        weight: 1
+      - path: LOD_1_Group_20_Sub_1__wp4000_00_2_mat
+        weight: 1
+      - path: LOD_1_Group_200_Sub_1__wp4000_00_laser_mat
+        weight: 1
+      - path: LOD_1_Group_201_Sub_1__wp4000_00_laser_mat
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/_00
+        weight: 1
+      - path: root/_00/_01
+        weight: 1
+      - path: root/_00/_02
+        weight: 1
+      - path: root/_00/_03
+        weight: 1
+      - path: root/_00/_04
+        weight: 1
+      - path: root/_00/_05
+        weight: 1
+      - path: root/_00/_06
+        weight: 1
+      - path: root/_00/_07
+        weight: 1
+      - path: root/_00/_08
+        weight: 1
+      - path: root/_00/_14
+        weight: 1
+      - path: root/_00/_100
+        weight: 1
+      - path: root/_00/_101
+        weight: 1
+      - path: root/_00/vfx_Laser1
+        weight: 1
+      - path: root/_00/vfx_muzzle1
+        weight: 1
+      - path: root/_00/vfx_muzzle2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Wp1_Shoot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD_1_Group_0_Sub_1__wp4000_00_2_mat
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD_1_Group_5_Sub_1__wp4000_00_2_mat
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD_1_Group_6_Sub_1__wp4000_00_2_mat
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD_1_Group_20_Sub_1__wp4000_00_2_mat
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD_1_Group_200_Sub_1__wp4000_00_laser_mat
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD_1_Group_201_Sub_1__wp4000_00_laser_mat
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Wp1_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _00
+      parentName: root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vfx_muzzle1
+      parentName: _00
+      position: {x: 3.5527136e-17, y: 0.073789135, z: 0.17918164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vfx_muzzle2
+      parentName: _00
+      position: {x: 0.0003702715, y: 0.07613162, z: 0.07085753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vfx_Laser1
+      parentName: _00
+      position: {x: 0.0000000111651195, y: 0.028445205, z: 0.1716864}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _100
+      parentName: _00
+      position: {x: -0.05587074, y: -0.047506507, z: -0.039262068}
+      rotation: {x: -0.50332874, y: 0.559546, z: 0.5595488, w: 0.3470931}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: _101
+      parentName: _00
+      position: {x: -0.05587074, y: -0.047506507, z: -0.039262068}
+      rotation: {x: -0.50332874, y: 0.559546, z: 0.5595488, w: 0.3470931}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: _01
+      parentName: _00
+      position: {x: 7.105427e-17, y: 0.077040076, z: 0.10046571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _02
+      parentName: _00
+      position: {x: -0, y: 0.05464382, z: -0.01799878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _03
+      parentName: _00
+      position: {x: -0, y: 0.046390727, z: 0.057948742}
+      rotation: {x: 0.25881907, y: -0, z: -0, w: 0.9659258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _05
+      parentName: _00
+      position: {x: -1.7763568e-17, y: 0.07152767, z: 0.12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _06
+      parentName: _00
+      position: {x: -0.012999999, y: 0.050188445, z: 0.06894966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _07
+      parentName: _00
+      position: {x: -0.015573613, y: 0.051305283, z: -0.013419395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _08
+      parentName: _00
+      position: {x: -0, y: 0.017, z: 0.038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _04
+      parentName: _00
+      position: {x: 3.5527136e-17, y: 0.0046666814, z: 0.0011551648}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _14
+      parentName: _00
+      position: {x: 4.6185276e-16, y: 0.004666688, z: 0.001155162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

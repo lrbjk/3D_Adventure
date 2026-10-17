@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5625709fa9470024eb959c183f371be1, type: 3}
+  m_Name: Wp1
+  m_EditorClassIdentifier: 
+  stableId: 5c03f0a3a84c41e9ad82d2b5befb8614
+  ID: 1
+  Name: Pistol
+  description: "\u57FA\u7840\u624B\u67AA"
+  weaponType: 1
+  canDrop: 1
+  pickupPrefab: {fileID: 7066068051802717440, guid: 0c9eb362dc6e577428aca4d99dab71fa,
+    type: 3}
+  weaponPrefab: {fileID: 5357252675130282920, guid: 11c8636673a8d7140af30f4a018679e3,
+    type: 3}
+  wpIcon: {fileID: 21300000, guid: 0f21a9d3aefccdc49bcf5f86335c0085, type: 3}
+  wpSimpleIcon: {fileID: 21300000, guid: 812561ba1948f084780caf7ef89f343d, type: 3}
+  damage: 12.5
+  stunRate: 0.5
+  fireRate: 0.8
+  range: 0
+  reloadTime: 0
+  ammoItem: {fileID: 11400000, guid: 1988ae26999322645ae4d062f69652b0, type: 2}
+  bulletId: 0
+  bulletSpeed: 340
+  bulletSize: 9
+  bulletTotalNum: 3
+  bulletSpread: 0.05
+  bulletPrefab: {fileID: 946230873439750309, guid: 36ba956664d8c524483e29bd15b0527d,
+    type: 3}
+  muzzleFirePrefab: {fileID: 5496388951311074610, guid: 1022d72f8996b574cb34d771b710978f,
+    type: 3}
+  impactEffectPrefab: {fileID: 4843473094433882981, guid: d6f5bf0d1794b754c8a36422d6264c57,
+    type: 3}
+  hitEffectPrefab:
+  - {fileID: 1245417074158469956, guid: 4116cec408736b8408c7cea75253bb9b, type: 3}
+  - {fileID: 6116272564290920067, guid: d58f136885f6e8a4ca2a8731c8bc258d, type: 3}
+  - {fileID: 7077355519987932895, guid: 579357df66620f747a0c8f99cabbd10e, type: 3}
+  - {fileID: 258580847482720398, guid: 907189bb1273a83499f4581146d101a5, type: 3}
+  - {fileID: 3061189629347133704, guid: a8e182c1811239647a9f16b1f40dd7f2, type: 3}
+  hitImpacts:
+  - {fileID: 3304277540731227307, guid: c2db96ffe77b22a44abc04aa006f938a, type: 3}
+  - {fileID: 3404704020636200716, guid: da81a59c020ec0f439c856883cc39555, type: 3}
+  - {fileID: 3999907528169576385, guid: 041f64d7bc6e82a4f8aa7f7d91a31438, type: 3}
+  - {fileID: 2980059464862511782, guid: 0d108913a24953242b9fd2615389b2d2, type: 3}
+  - {fileID: 6759681332481089502, guid: 1f219c30ad484724ab383b71e9509c8b, type: 3}
+  toIdle: wp1_PutOut
+  IdleAnim: Idle
+  onHandAnim: Wp1_Onhand
+  AimAnim: Aim
+  AimCloseAnim: AimClose
+  reloadAnim: Reload
+  shakeData: {fileID: 11400000, guid: 360e7c13f82c8c64eaa94fcd29de543b, type: 2}
+  shootSound: PistolShoot
+  reloadSound: PistolReload
+  emptySound: PistolEmpty

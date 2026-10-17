@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5625709fa9470024eb959c183f371be1, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  stableId: 619432b160b74450a8888bc97c9588af
+  ID: 0
+  Name: Knife
+  description: "\u57FA\u7840\u8FD1\u6218\u6B66\u5668"
+  weaponType: 0
+  canDrop: 1
+  pickupPrefab: {fileID: 7521100664048757882, guid: 0ead13dc6a8020c40a8ccb5ca0aa4118,
+    type: 3}
+  weaponPrefab: {fileID: 9173455373348981353, guid: 30626cdf4112905409993fb1fdf8bdfb,
+    type: 3}
+  wpIcon: {fileID: 21300000, guid: 74c7c4908db5586488d8d3f12f736e23, type: 3}
+  wpSimpleIcon: {fileID: 0}
+  damage: 10
+  stunRate: 0
+  fireRate: 0
+  range: 0
+  reloadTime: 0
+  ammoItem: {fileID: 0}
+  bulletId: -1
+  bulletSpeed: 0
+  bulletSize: 100
+  bulletTotalNum: 1
+  bulletSpread: 0
+  bulletPrefab: {fileID: 0}
+  muzzleFirePrefab: {fileID: 0}
+  impactEffectPrefab: {fileID: 0}
+  hitEffectPrefab:
+  - {fileID: 0}
+  hitImpacts: []
+  toIdle: 
+  IdleAnim: Idle
+  onHandAnim: Empty
+  AimAnim: 
+  AimCloseAnim: 
+  reloadAnim: 
+  shakeData: {fileID: 0}
+  shootSound: KnifeSwipe
+  reloadSound: 
+  emptySound: 

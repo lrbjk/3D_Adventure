@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8674adba7600c9643aa0358044899602, type: 3}
+  m_Name: PistolBullet
+  m_EditorClassIdentifier: 
+  stableId: a477f3962c224417a2bc80c8f03ed2aa
+  legacyStableIds:
+  - acfb059d66ea4826bb604e11669b08b7
+  configVersion: 2
+  id: 0
+  itemName: Pistol Ammo
+  description: 
+  itemType: 2
+  defaultAmount: 10
+  icon: {fileID: 21300000, guid: 8b33d633ab8bda54c9a45903a695646f, type: 3}
+  worldPrefab: {fileID: 1148028157815146596, guid: f1dc0afb0fb3ad643b6e42aa87ec8d50,
+    type: 3}
+  inspectPrefab: {fileID: 3020400497915226477, guid: 32700204acada6844961c25caaefe9e9,
+    type: 3}
+  useEffect: 0
+  effectAmount: 0
+  isCombinable: 0
+  combineWith: {fileID: 0}
+  combineResult: {fileID: 0}
+  item:
+    id: 0
+    itemName: Pistol Ammo
+    itemNum: 10
+    itemObject: Item/ammo_box
+    itemIcon: Icon/GunAmmoBoxIcon
+    isUseable: 0
+    isCombinable: 0
+    combineId: 0
+    combineObject: {fileID: 0}

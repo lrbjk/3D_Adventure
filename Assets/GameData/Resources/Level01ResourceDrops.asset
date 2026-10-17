@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0de574969961444ab440d483249456, type: 3}
+  m_Name: Level01ResourceDrops
+  m_EditorClassIdentifier: Assembly-CSharp::Astraparasitus.LootTable
+  entries:
+  - item: {fileID: 11400000, guid: 1988ae26999322645ae4d062f69652b0, type: 2}
+    prefab: {fileID: 1148028157815146596, guid: f1dc0afb0fb3ad643b6e42aa87ec8d50,
+      type: 3}
+    weight: 6
+    minAmount: 3
+    maxAmount: 6
+  - item: {fileID: 11400000, guid: f851073a209bf1b458383027f298666b, type: 2}
+    prefab: {fileID: 6215487509445414067, guid: 562fcb813321640428f24c401cf4da0c,
+      type: 3}
+    weight: 3
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 64c02a7af1bea6c4aba1ded75e60111e, type: 2}
+    prefab: {fileID: 2279634672859823459, guid: cacae6c13ed8c1c4eab4ae353fd98b2a,
+      type: 3}
+    weight: 1
+    minAmount: 1
+    maxAmount: 1

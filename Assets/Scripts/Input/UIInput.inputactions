@@ -1,0 +1,74 @@
+{
+    "name": "UIInput",
+    "maps": [
+        {
+            "name": "Input",
+            "id": "2db39d98-1949-4907-aad4-198d53cffa83",
+            "actions": [
+                {
+                    "name": "Backpack",
+                    "type": "Button",
+                    "id": "94b6271e-81b0-40f3-a213-851d2d8093bf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "close",
+                    "type": "Button",
+                    "id": "40c728dd-a647-4f28-ada6-9210e77ae7ec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CloseItem",
+                    "type": "Button",
+                    "id": "c4a934b4-68c8-44ea-8065-3012cca755d9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8874f2d3-90c5-4593-a345-841ebd62cfff",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Backpack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "443a88a7-278a-4426-99d0-8822e7013ace",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "close",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53fac3b1-0464-49b7-9359-a27a6feb9231",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

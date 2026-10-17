@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745902421a234899a06cfa2df588604a, type: 3}
+  m_Name: Level01ResourceBalance
+  m_EditorClassIdentifier: Assembly-CSharp::Astraparasitus.ResourceBalanceProfile
+  defaultLootTable: {fileID: 11400000, guid: b22048750d907b74583f824912fac363, type: 2}
+  enemyChance: 0.18
+  containerChance: 0.55
+  doorChance: 0.35
+  maxEmptyRolls: 4
+  lowAmmo: 8
+  comfortableAmmo: 24
+  shortageWeight: 2.5
+  surplusWeight: 0.2
+  lowHealthRatio: 0.4
+  comfortableHealingItems: 2

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46268822cb7dd547a1113c2f616d593, type: 3}
+  m_Name: TC01
+  m_EditorClassIdentifier: 
+  stableId: d63d12930e1b46908c188da772f0d15f
+  skillName: TC01
+  clipName: ZombieCrawlGrab
+  endurance: 0
+  damageRate: 0
+  eventName: 1
+  startframe: 1
+  endframe: 1
+  hitboxIndex: 3

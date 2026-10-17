@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8674adba7600c9643aa0358044899602, type: 3}
+  m_Name: Spray
+  m_EditorClassIdentifier: 
+  stableId: 8757a53bba8446d9a3486ea79ac3a0bd
+  legacyStableIds: []
+  configVersion: 2
+  id: 20
+  itemName: Spray
+  description: 
+  itemType: 2
+  defaultAmount: 1
+  icon: {fileID: 21300000, guid: 353934623ed48d14da3009d244cac5b8, type: 3}
+  worldPrefab: {fileID: 2279634672859823459, guid: cacae6c13ed8c1c4eab4ae353fd98b2a,
+    type: 3}
+  inspectPrefab: {fileID: 7217434916955465310, guid: aa8b8b5dfdfebb3428628bb83a9f6226,
+    type: 3}
+  useEffect: 1
+  effectAmount: 100
+  isCombinable: 0
+  combineWith: {fileID: 0}
+  combineResult: {fileID: 0}
+  item:
+    id: 20
+    itemName: Spray
+    itemNum: 1
+    itemObject: Item/Spray_SlimWhite
+    itemIcon: Icon/Spray_SlimWhite
+    isUseable: 1
+    isCombinable: 0
+    combineId: 0
+    combineObject: {fileID: 0}

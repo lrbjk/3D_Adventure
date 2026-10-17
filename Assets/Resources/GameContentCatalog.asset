@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8ff49ef1d451d4d8dbd25b25a81f75, type: 3}
+  m_Name: GameContentCatalog
+  m_EditorClassIdentifier: 
+  player: {fileID: 11400000, guid: 126fd869ac3a4d243b208c19406dcb5d, type: 2}
+  items:
+  - {fileID: 11400000, guid: 7e872962d87861c489ffb99f0df8fdf2, type: 2}
+  - {fileID: 11400000, guid: f05b3c4fbae703f47a55e044a523a4a9, type: 2}
+  - {fileID: 11400000, guid: c21d95bd233728144bf0319093b2caa6, type: 2}
+  - {fileID: 11400000, guid: f851073a209bf1b458383027f298666b, type: 2}
+  - {fileID: 11400000, guid: 43a338ea30aa9574c8af0b0d186784e0, type: 2}
+  - {fileID: 11400000, guid: 2c317c8f929c50a46839e12eef3e6685, type: 2}
+  - {fileID: 11400000, guid: 6a0e5d3a33bdd5442991290d40dc6e67, type: 2}
+  - {fileID: 11400000, guid: 1988ae26999322645ae4d062f69652b0, type: 2}
+  - {fileID: 11400000, guid: 64c02a7af1bea6c4aba1ded75e60111e, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: cd671746e830f47489651a0c7e8bf57b, type: 2}
+  - {fileID: 11400000, guid: 124b6e650b071b44ba23b67e24033b5a, type: 2}
+  - {fileID: 11400000, guid: 89d1d28ff452f0c458b9c116446f21bb, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: 52cb483cf97c0b54abb59272871572ee, type: 2}
+  - {fileID: 11400000, guid: 098b0516186276c41bd9d75985aedeab, type: 2}
+  - {fileID: 11400000, guid: 228289bc5fdd8eb42994313a29903c3f, type: 2}
+  - {fileID: 11400000, guid: 3694180ba986e42458a407e29bc3d23e, type: 2}
+  - {fileID: 11400000, guid: ce338dac22afc234fa6cab014109f396, type: 2}
+  - {fileID: 11400000, guid: 679f24aaca970dc4bb0b99f8ecfbec69, type: 2}
+  - {fileID: 11400000, guid: 3f4b21d3b46a669448711233cfdf9b52, type: 2}
+  quests:
+  - {fileID: 11400000, guid: c5922a1df0e62bb46996a487d7c3f4fd, type: 2}
+  - {fileID: 11400000, guid: ebac7b99c5ba073439de630c1aecc3e5, type: 2}

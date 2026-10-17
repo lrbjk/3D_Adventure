@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ce33ac09f0eed46b3a74aa8008618b, type: 3}
+  m_Name: Q2
+  m_EditorClassIdentifier: 
+  stableId: a8b0248c6fc649e3aa25bb968d295c02
+  <id>k__BackingField: Q2
+  displayName: "\u8FDB\u5165\u8BBE\u65BD\u66F4\u6DF1\u5904"
+  type: 0
+  prerequisites:
+  - {fileID: 11400000, guid: c5922a1df0e62bb46996a487d7c3f4fd, type: 2}
+  description: "\u627E\u5230\u540E\u95E8\u94A5\u5319"
+  questStepPrefab:
+  - {fileID: 3041578383067411811, guid: abb07574aa007f140bf368257f95b23b, type: 3}
+  reward: 0

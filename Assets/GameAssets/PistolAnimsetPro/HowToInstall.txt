@@ -1,0 +1,18 @@
+INSTALLATION NOTES
+
+If you are interested in just animations - delete everything except the folder "Animations".
+
+--------------------------------------------
+
+If you want the Playmaker controller:
+
+
+1. Create a new Unity Project
+
+2. Download and Import fresh version of Playmaker. Remember that PlayMaker has a 2-step installation - you have to install it after importing.
+
+3. Import Pistol Animset Pro
+
+4. Unzip and copy the contents of PistolAnimsetPro\UnzipAndCopyToProjectSettings-InputFile\InputManager.zip to ProjectSettings\ folder (do this outside Unity Editor).
+
+5. Enjoy

@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c04639ae548bdb0a8e927492d029d, type: 3}
+  m_Name: NewRig 1
+  m_EditorClassIdentifier: 
+  targetAnimator: {fileID: 9100000, guid: 64654e0a3e05b6a4dbf8bf6e06580396, type: 2}
+  inputConfig: {fileID: 11400000, guid: 680f6aa8ffdae734ca461eb0f064cbed, type: 2}
+  rigHierarchy:
+  - name: SK_Military_Survivalist
+    index: 0
+    isVirtual: 0
+  - name: FPS_HANDS
+    index: 1
+    isVirtual: 0
+  - name: SK_Miliary_FPS_Arms
+    index: 2
+    isVirtual: 0
+  - name: SK_Miliary_FPS_Arms_Gloves1
+    index: 3
+    isVirtual: 0
+  - name: SK_Miliary_Military_FPS_Shirt3
+    index: 4
+    isVirtual: 0
+  - name: root
+    index: 5
+    isVirtual: 0
+  - name: pelvis
+    index: 6
+    isVirtual: 0
+  - name: spine_01
+    index: 7
+    isVirtual: 0
+  - name: spine_02
+    index: 8
+    isVirtual: 0
+  - name: spine_03
+    index: 9
+    isVirtual: 0
+  - name: clavicle_l
+    index: 10
+    isVirtual: 0
+  - name: upperarm_l
+    index: 11
+    isVirtual: 0
+  - name: lowerarm_l
+    index: 12
+    isVirtual: 0
+  - name: hand_l
+    index: 13
+    isVirtual: 0
+  - name: index_01_l
+    index: 14
+    isVirtual: 0
+  - name: index_02_l
+    index: 15
+    isVirtual: 0
+  - name: index_03_l
+    index: 16
+    isVirtual: 0
+  - name: middle_01_l
+    index: 17
+    isVirtual: 0
+  - name: middle_02_l
+    index: 18
+    isVirtual: 0
+  - name: middle_03_l
+    index: 19
+    isVirtual: 0
+  - name: pinky_01_l
+    index: 20
+    isVirtual: 0
+  - name: pinky_02_l
+    index: 21
+    isVirtual: 0
+  - name: pinky_03_l
+    index: 22
+    isVirtual: 0
+  - name: ring_01_l
+    index: 23
+    isVirtual: 0
+  - name: ring_02_l
+    index: 24
+    isVirtual: 0
+  - name: ring_03_l
+    index: 25
+    isVirtual: 0
+  - name: thumb_01_l
+    index: 26
+    isVirtual: 0
+  - name: thumb_02_l
+    index: 27
+    isVirtual: 0
+  - name: thumb_03_l
+    index: 28
+    isVirtual: 0
+  - name: lowerarm_twist_01_l
+    index: 29
+    isVirtual: 0
+  - name: upperarm_twist_01_l
+    index: 30
+    isVirtual: 0
+  - name: clavicle_r
+    index: 31
+    isVirtual: 0
+  - name: upperarm_r
+    index: 32
+    isVirtual: 0
+  - name: lowerarm_r
+    index: 33
+    isVirtual: 0
+  - name: hand_r
+    index: 34
+    isVirtual: 0
+  - name: index_01_r
+    index: 35
+    isVirtual: 0
+  - name: index_02_r
+    index: 36
+    isVirtual: 0
+  - name: index_03_r
+    index: 37
+    isVirtual: 0
+  - name: middle_01_r
+    index: 38
+    isVirtual: 0
+  - name: middle_02_r
+    index: 39
+    isVirtual: 0
+  - name: middle_03_r
+    index: 40
+    isVirtual: 0
+  - name: pinky_01_r
+    index: 41
+    isVirtual: 0
+  - name: pinky_02_r
+    index: 42
+    isVirtual: 0
+  - name: pinky_03_r
+    index: 43
+    isVirtual: 0
+  - name: ring_01_r
+    index: 44
+    isVirtual: 0
+  - name: ring_02_r
+    index: 45
+    isVirtual: 0
+  - name: ring_03_r
+    index: 46
+    isVirtual: 0
+  - name: thumb_01_r
+    index: 47
+    isVirtual: 0
+  - name: thumb_02_r
+    index: 48
+    isVirtual: 0
+  - name: thumb_03_r
+    index: 49
+    isVirtual: 0
+  - name: Pistol
+    index: 50
+    isVirtual: 0
+  - name: lowerarm_twist_01_r
+    index: 51
+    isVirtual: 0
+  - name: upperarm_twist_01_r
+    index: 52
+    isVirtual: 0
+  - name: neck_01
+    index: 53
+    isVirtual: 0
+  - name: RightHeadAim
+    index: 54
+    isVirtual: 0
+  - name: head
+    index: 55
+    isVirtual: 0
+  - name: thigh_l
+    index: 56
+    isVirtual: 0
+  - name: calf_l
+    index: 57
+    isVirtual: 0
+  - name: calf_twist_01_l
+    index: 58
+    isVirtual: 0
+  - name: foot_l
+    index: 59
+    isVirtual: 0
+  - name: ball_l
+    index: 60
+    isVirtual: 0
+  - name: thigh_twist_01_l
+    index: 61
+    isVirtual: 0
+  - name: thigh_r
+    index: 62
+    isVirtual: 0
+  - name: calf_r
+    index: 63
+    isVirtual: 0
+  - name: calf_twist_01_r
+    index: 64
+    isVirtual: 0
+  - name: foot_r
+    index: 65
+    isVirtual: 0
+  - name: ball_r
+    index: 66
+    isVirtual: 0
+  - name: thigh_twist_01_r
+    index: 67
+    isVirtual: 0
+  - name: SK_Military_Backpack1
+    index: 68
+    isVirtual: 0
+  - name: SK_Military_Backpack1_vest
+    index: 69
+    isVirtual: 0
+  - name: SK_Military_Boots3
+    index: 70
+    isVirtual: 0
+  - name: SK_Military_Cap1
+    index: 71
+    isVirtual: 0
+  - name: SK_Military_Head1
+    index: 72
+    isVirtual: 0
+  - name: SK_Military_Male_Arms1
+    index: 73
+    isVirtual: 0
+  - name: SK_Military_Male_Arms1_Gloves1
+    index: 74
+    isVirtual: 0
+  - name: SK_Military_Pants2
+    index: 75
+    isVirtual: 0
+  - name: SK_Military_Shirt3
+    index: 76
+    isVirtual: 0
+  - name: SK_Military_Vest1
+    index: 77
+    isVirtual: 0
+  - name: SK_Military_Vest1_4
+    index: 78
+    isVirtual: 0
+  rigElementChains: []
+  rigCurves: []
+  rigDepths: 00000000010000000200000002000000020000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000a0000000b0000000c0000000a0000000b0000000c0000000a0000000b0000000c0000000a0000000b0000000c0000000900000008000000060000000700000008000000090000000a0000000b0000000c0000000a0000000b0000000c0000000a0000000b0000000c0000000a0000000b0000000c0000000a0000000b0000000c0000000a00000009000000080000000600000007000000070000000300000004000000050000000500000006000000040000000300000004000000050000000500000006000000040000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
